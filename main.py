@@ -36,7 +36,7 @@ async def startmessage(event):
       await client.send_message(event.chat_id,
                                 message=START_TEXT,
                                 buttons=[[Button.url("📢 Support Channel 📢","https://t.me/Harp_Tech")],
-                                         [Button.url("👨‍💻 Contact Owner 👨‍💻","https://t.me/Official_Bawwa")]]) 
+                                         [Button.url("👨‍💻 Contact Us! 👨‍💻","https://t.me/HARP_Chat")]]) 
                                                                                                          
     if event.message.media:
       await client.send_message(event.chat_id,file=event.message.media)
